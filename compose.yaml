@@ -1,0 +1,6 @@
+﻿services:
+  dz1:
+    image: dz1
+    build:
+      context: .
+      dockerfile: DZ1/Dockerfile
